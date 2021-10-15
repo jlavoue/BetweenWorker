@@ -1,0 +1,166 @@
+Group,k,n,sw,rw,sb,rb,agent,industry
+1,5,25,0.3050,3.30,0.2130,23.00,Perchloroethylene,Dry  cleanmg
+2,5,35,0.6610,13.30,0.9520,41.80,Inspirable dust,Wool  mill
+3,5,23,0.3260,3.60,0.1890,2.10,Inspirable dust,Wool  mill
+4,12,24,0.6100,109.00,0.2590,28.00,Inspirable dust,Vehicle  manufacture
+5,8,16,0.5900,101.00,0.2870,3.10,Inspirable dust,Vehicle  manufacture
+6,12,24,0.5340,8.10,0.2290,2.50,Inspirable iron,Vehicle  manufacture
+7,7,14,0.3450,3.90,0.0860,1.40,lnspirable iron,Vehicle  manufacture
+8,11,22,0.8620,294.00,0.0000,1.00,Inspirable zinc,Vehicle  manufacture
+9,8,16,1.1550,92.60,0.7540,19.20,Impirable zinc,Vehicle  manufacture
+10,12,24,0.6980,15.50,0.5690,9.30,Inspirable copper,Vehicle  manufacture
+11,8,16,0.3840,4.50,0.3780,4.40,lmpirable copper,Vehicle  manufacture
+12,5,22,0.7270,17.30,0.0000,1.00,Inspirable  dust,Vehicle  manufacture
+13,5,22,0.4870,6.70,0.1040,1.50,Inspirable Zinc,Vehicle  manufacture
+14,9,36,1.4440,287.70,0.0000,1.00,Respirable nnc,Brass  foundry
+15,5,15,1.5360,411.30,0.0000,1.00,Respirable zinc,Brass  foundry
+16,6,27,0.6870,14.80,0.3650,4.20,Inspirable dust,Ammal  feed production
+17,5,18,0.5270,7.90,0.6760,14.20,lnspirable dust,Animal  feed production
+18,5,21,0.8100,24.00,1.4550,300.10,Inspirable dust,Ammal  feed production
+19,6,26,0.9890,48.40,0.2420,2.60,Inspirable dust,Ammal  feed production
+20,5,18,0.6790,14.30,0.8520,28.20,Inspirable dust,Ammal  feed production
+21,5,12,1.1750,100.30,2.6170,28577.00,Inspirable dust,Ammal  feed production
+22,9,27,1.2060,113.20,1.4150,256.70,lnspirable dust,Ammal  feed production
+23,6,26,0.9280,38.00,0.4960,7.00,lnspirable dust,Ammal  feed production
+24,8,25,1.0780,68.50,0.0000,1.00,lnspirable dust,Ammal  feed production
+25,6,24,0.7640,200.00,0.2630,2.80,lnspirable endotoxin,Ammal  feed production
+26,5,17,0.5530,87.00,0.5560,88.00,Inspirable endotoxin,Ammal  feed production
+27,5,21,1.3230,179.00,1.4420,284.60,Inspirable endotoxin,Ammal  feed production
+28,6,26,1.3290,183.10,0.4900,6.80,Inspirable endotoxin,Ammal  feed production
+29,5,18,0.6860,14.70,1.1870,105.00,Inspirable endotoxin,Ammal  feed production
+30,5,12,1.3580,204.90,2.3310,9306.40,Inspirable endotoxin,Animal  feed production
+31,9,27,1.0430,59.80,1.2600,139.50,Inspirable endotoxin,Ammal  feed production
+32,6,26,1.0550,62.60,0.3070,3.30,Inspirable endotoxin,Animal  feed production
+33,8,24,2.0990,3743.50,0.4050,49.00,Inspirable endotoxin,Ammal  feed production
+34,5,20,0.9290,38.20,0.4010,4.80,Inspirable dust,Grain  mill
+35,10,33,1.1390,86.80,0.0000,1.00,Inspirable dust,Grain  mill
+36,8,24,0.9810,46.70,0.5230,78.00,Inspirable dust,Grain  mill
+37,6,15,0.5520,8.70,0.8060,23.60,Inspirable dust,Grain  mill
+38,5,20,1.5700,470.10,0.3740,43.00,Inspirable endotoxin,Grain  mill
+39,10,32,1.8800,1586.80,0.0000,1.00,Inspirable endotoxin,Grain  mill
+40,8,24,1.3240,179.70,0.5900,10.10,Inspirable endotoxin,Grain  mill
+41,5,12,0.8950,33.40,0.3270,36.00,Inspirable endotoxin,Grain  mill
+42,7,14,1.0600,63.80,1.3990,240.50,Inspirable dust,Gram elevator
+43,10,20,1.3440,194.50,0.9520,41.80,Inspirable dust,Grain elevator
+44,8,16,1.4830,334.40,0.0000,1.00,Inspirable dust,Gram elevator
+45,9,18,0.7930,224.00,1.0990,74.20,Inspirable dust,Grain elevator
+46,8,24,0.7040,15.80,0.2770,30.00,lnspirable dust,Tobacco products
+47,5,15,0.7100,16.10,0.4220,52.00,lnspirable dust,Tobacco products
+48,10,29,0.4680,63.00,0.2950,32.00,lnspirable dust,Tobacco products
+49,7,21,0.3710,4.30,0.2550,2.70,Inspirable dust,Tobacco products
+50,8,24,0.4320,5.40,0.0000,1.00,Inspirnble nicotine,Tobacco products
+51,5,15,0.3490,39.00,0.2240,2.40,Inspirnble nicotine,Tobacco products
+52,10,28,0.3480,39.00,0.1020,1.50,Inspirnble nicotine,Tobacco products
+53,7,21,0.3560,4.00,0.0000,1.00,Inspirable nicotine,Tobacco products
+54,6,17,0.9270,37.90,0.9790,46.40,lnspirable dust,Rubber manufacture
+55,18,36,0.8290,25.80,0.3690,4.30,lnspirable dust,Rubber manufacture
+56,5,14,0.2510,2.70,0.1800,2.00,lnspirable dust,Rubber manufacture
+57,6,18,0.7360,17.90,0.7680,20.30,lnspirable dust,Rubber manufacture
+58,8,22,0.5470,8.50,0.4650,6.20,lnspirable dust,Rubber manufacture
+59,6,18,0.3680,4.20,0.2680,2.90,Inspirable dust,Rubber manufacture
+60,5,13,0.3270,36.00,0.1550,1.80,Inspirable dust,Rubber manufacture
+61,5,11,0.4670,6.20,0.7670,20.20,Inspirable dust,Rubber manufacture
+62,5,14,0.4820,66.00,0.6530,13.00,lnspirable dust,Rubber manufacture
+63,5,12,0.3030,3.30,0.8550,28.60,lnspirable dust,Rubber manufacture
+64,6,18,0.4730,6.40,0.3350,3.70,Inspirable dust,Rubber manufacture
+65,6,13,0.4030,4.90,0.2930,32.00,Inspirable dust,Rubber manufacture
+66,7,21,0.5210,7.70,0.4280,5.40,Inspirable dust,Rubber manufacture
+67,9,25,0.3370,3.70,1.0190,542.00,Inspirable dust,Rubber manufacture
+68,7,21,0.5720,9.40,0.2490,2.70,Inspirable dust,Rubber manufacture
+69,5,14,0.7390,18.10,1.0670,65.50,Inspirable dust,Rubber manufacture
+70,6,13,0.5690,93.00,0.4830,66.00,Inspirable dust,Rubber manufacture
+71,12,32,0.5160,7.60,1.9390,1999.30,Inspirable dust,Rubber manufacture
+72,11,28,0.3970,4.70,0.0000,1.00,Inspirable dust,Rubber manufacture
+73,6,16,0.7630,19.90,1.7160,833.40,Inspirable dust,Rubber manufacture
+74,7,20,1.4070,248.60,0.0000,1.00,Cyclohexane soluble dermal,Rubber manufacture
+75,7,19,1.0560,62.90,0.6160,11.20,Cyclohexane soluble dermal,Rubber manufacture
+76,8,21,0.7810,21.40,0.6710,13.90,Cyclohexane soluble dermal,Rubber manufacture
+77,5,13,1.0970,73.70,0.1360,1.70,Cyclohexane soluble dermal,Rubber manufacture
+78,6,18,1.1940,159.80,0.9480,41.10,Cyclohexane soluble dermal,Rubber manufacture
+79,8,22,0.4190,5.20,0.3490,3.90,Cyclohexane soluble dermal,Rubber manufacture
+80,6,16,0.0020,32.00,0.0240,1.10,Cyclohexane soluble dermal,Rubber manufacture
+81,7,20,0.9480,41.10,0.4120,5.00,Cyclohexane soluble dermal,Rubber manufacture
+82,6,13,2.2390,6473.00,0.3060,33.00,Cyclohexane soluble dermal,Rubber manufacture
+83,5,14,1.0140,53.20,1.4420,285.10,Cyclohexane soluble dermal,Rubber manufacture
+84,5,16,0.5600,90.00,0.5220,7.70,Cyclohexane soluble dermal,Rubber manufacture
+85,6,14,0.3210,35.00,0.8740,30.80,Cyclohexane soluble dermal,Rubber manufacture
+86,9,25,0.7010,15.60,0.6530,12.90,Cyclohexane soluble dermal,Rubber manufacture
+87,12,25,0.6060,10.80,0.0000,1.00,Cyclohexane soluble dermal,Rubber manufacture
+88,8,23,1.1340,85.40,1.0660,65.20,Cyclohexane soluble dermal,Rubber manufacture
+89,10,27,0.8980,33.70,0.8470,27.70,Cyclohexane soluble dermal,Rubber manufacture
+90,6,14,0.7290,17.50,0.5630,9.10,Cyclohexane soluble dermal,Rubber manufacture
+91,9,27,0.5920,10.20,0.6060,10.70,Cyclohexane soluble dermal,Rubber retreading
+92,5,14,0.3060,33.00,0.1100,1.50,Cyclohexane soluble dermal,Rubber retreading
+93,7,19,0.5670,9.20,0.7950,22.50,Cyclohexane soluble dermal,Rubber manufacture
+94,15,40,0.5540,88.00,0.5450,8.50,Cyclohexane soluble dermal,Rubber manufacture
+95,15,39,0.6110,110.00,0.6430,12.40,Cyclohexane soluble dermal,Rubber manufacture
+96,5,14,0.8090,23.80,0.0000,1.00,Cyclohexane soluble dermal,Rubber manufacture
+97,12,77,0.4090,5.00,0.4110,5.00,Diphenyl,Synthetic yarn manufacture
+98,5,28,0.2360,2.50,0.2490,2.70,Diphenyl,Synthetic yarn manufacture
+99,12,77,0.4360,5.50,0.4320,5.40,Diphenyl ether,Synthetic yarn manufacture
+100,5,29,0.2980,3.20,0.1930,2.10,Diphenyl ether,Synthetic yarn manufacture
+101,11,48,0.9460,40.80,0.6780,14.30,Inspirable dust,Pesticides formulation
+102,13,57,0.4890,6.80,0.3090,3.40,Inspirable dust,Pesticides formulation
+103,5,91,0.9610,432.00,0.0000,1.00,Nitrogen dioxide,Fertilizer manufacture
+104,10,28,1.5620,455.60,0.0000,1.00,Styrene,Reinforced plastics
+105,8,23,0.6170,11.20,0.8590,29.00,Styrene,Reinforced plastics
+106,8,32,0.4620,6.00,0.3570,4.00,Styrene,Reinforced plastics
+107,7,18,0.7040,15.80,0.0000,1.00,Styrene,Reinforced plastics
+108,8,24,0.5070,7.30,0.0000,1.00,Styrene,Reinforced plastics
+109,10,30,0.2040,2.20,0.2690,2.90,Styrene,Reinforced plastics
+110,6,18,0.2080,2.30,0.3920,4.60,Styrene,Reinforced plastics
+111,8,24,0.2670,2.80,0.4220,5.20,Styrene,Reinforced plastics
+112,6,29,0.4570,6.00,0.2180,24.00,Welding fume,Locomotive manufacture
+113,6,29,0.4590,6.00,0.1470,1.80,Welding fume,Locomotive manufacture
+114,6,29,0.5210,7.70,0.2060,2.20,Welding fume,Locomotive manufacture
+115,6,29,0.4460,5.80,0.2110,2.30,Welding fume,Locomotive manufacture
+116,10,27,0.4400,5.60,0.4270,5.30,Diphenyl ether,Synthetic yarn manufacture
+117,6,16,0.3770,4.40,0.3540,4.00,Diphenyl ether,Synthetic yarn manufacture
+118,5,14,0.5840,9.90,0.5570,8.90,Diphenyl ether,Synthetic yarn manufacture
+119,9,21,0.3090,3.40,0.0000,1.00,Ethanal,Synthetic yarn manufacture
+120,7,21,0.1460,1.80,0.1480,1.80,Solvent vapours,Printing plant
+121,14,68,0.4700,6.30,0.4710,6.30,Styrene,Reinforced plastics
+122,6,33,1.0950,73.00,1.4790,316.30,Styrene,Reinforced plastics
+123,8,48,1.2840,153.70,0.7340,17.70,Styrene,Reinforced plastics
+124,6,27,1.2510,134.70,1.4880,341.70,Styrene,Reinforced plastics
+125,53,382,1.0220,54.90,0.5300,8.00,Toluene,Petroleum refining
+126,5,39,0.8450,27.40,0.3530,4.00,Toluene,Petroleum refining
+127,6,176,0.8480,27.80,0.3930,4.70,Tetraalkyl lead,Alkyl lead manufacture
+128,6,177,0.6140,11.10,0.1530,1.80,Inorganic lead,Alkyl lead manufacture
+129,38,201,1.1840,103.80,0.2640,2.80,Benzene,Petroleum refining
+130,17,89,0.6830,14.50,0.1930,2.10,Benzene,Petroleum  refining
+131,18,57,0.6930,15.10,0.1520,1.80,Benzene,Petroleum  refining
+132,38,164,1.2080,113.80,0.2850,3.10,Benzene,Petroleum  refining
+133,17,74,1.5560,445.30,0.5570,8.90,Benzene,Petroleum  refining
+134,16,50,0.7330,17.70,0.2220,2.40,Benzene,Petroleum  refining
+135,5,44,1.4920,346.90,0.3850,4.50,Benzene,Petroleum  refining
+136,10,54,1.6200,571.70,0.8240,253.00,Benzene,Petroleum  refining
+137,8,68,1.6710,699.50,0.2990,3.20,Benzene,Petroleum  refining
+138,22,145,1.7050,799.00,0.7150,16.50,Benzene,Petroleum  refining
+139,17,118,1.0720,66.70,0.2430,2.60,Benzene,Petroleum  refining
+140,18,90,1.3480,197.20,0.1340,1.70,Benzene,Petroleum  refining
+141,25,105,0.8200,24.90,0.4040,4.90,Benzene,Petroleum  refimng
+142,14,87,0.9360,39.30,0.3550,40.00,Benzene,Petroleum  refining
+143,13,73,1.1830,103.10,0.2490,2.70,Benzene,Petroleum  refining
+144,15,87,1.0920,72.20,0.3600,4.10,Benzene,Petroleum  refining
+145,15,167,1.5220,3900.00,0.6490,12.80,Benzene,Petroleum  refining
+146,14,38,1.6990,781.80,1.2780,149.60,Benzene,Petroleum  refining
+147,13,50,1.4030,244.80,0.6420,12.40,Benzene,Petroleum  refining
+148,15,36,0.3440,3.90,0.0000,1.00,Sulphur  dioxide,Aluminum reduction
+149,16,38,0.5390,8.30,0.0000,1.00,Total dust,Aluminum reduction
+150,14,34,0.3470,3.90,0.0890,1.40,Total  fluoride,Aluminum reduction
+151,14,34,0.3850,45.00,0.0000,1.00,Fluoride dust,Aluminum reduction
+152,15,36,0.2930,3.20,0.2050,2.20,Hydrogen fluoride,Aluminum reduction
+153,26,79,0.8800,31.50,0.0000,1.00,Formaldehyde,Resin manufacture
+154,8,24,0.6680,13.70,0.2590,2.80,Formaldehyde,Resin manufacture
+155,6,54,1.3900,232.60,0.0000,1.00,Organic  vapour,Pesticide manufacture
+156,5,1139,1.5250,394.30,0.4350,5.50,Organic  vapour,Pesticide manufacture
+157,16,5076,1.7230,856.30,0.3410,3.80,Organic  vapour,Pesticide manufacture
+158,62,1162,1.6380,615.40,0.8570,28.80,Organic  vapour,Pesticide manufacture
+159,16,592,0.5170,7.60,0.2320,2.50,Inorganicc mercury,Chloralkali  production
+160,6,18,0.3670,4.20,0.0910,1.40,Benzene,Spray  painting
+161,6,18,0.3080,3.30,0.2120,2.30,Benzene,Spray  painting
+162,6,18,0.2450,2.60,0.1650,1.90,Toluene,Spray  painting
+163,6,18,0.6940,15.20,0.0000,1.00,Toluene,Spray  painting
+164,6,18,0.3630,4.10,0.0600,1.30,Xylene,Spray  painting
+165,6,18,0.2410,2.60,0.2700,2.90,Xylene,Spray  painting
