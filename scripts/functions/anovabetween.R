@@ -1,5 +1,9 @@
 #####fonction de détermination de sigB et sigW a partir d'un data frame x=ppm et worker=character
 
+library(nlme)
+
+####### restricted to balanced datasets
+
 var.comp <-function(dat)
 {
   
@@ -50,3 +54,58 @@ var.comp <-function(dat)
   return(list(sigW=sigW,sigB=sigB,rho=as.numeric(sigB^2/(sigB^2+sigW^2)),significant=significant))
   
 }
+
+################## UNBALANCED CASE
+
+########################## using the ANOVA in R
+
+var.comp.aov <-function(dat){
+  
+  #dat : data.frame avec une colonne x de mesures et une colonne worker d'identifiants de travailleurs
+  
+  #des facteurs pour dat$worker
+  
+  dat$worker <-as.factor(dat$worker)
+  
+  fm1 <- aov( log(x) ~ worker , data=dat )
+  
+  MSres <- anova( fm1 )[2,3] 
+  
+  MSwork <- anova( fm1 )[1,3] 
+  
+  n0 <- ( n - ( sum( table(dat$worker)^2 ) )   / n ) / ( k-1 )
+  
+  sw <- sqrt( MSres )
+  
+  if ( ( (MSwork - sw^2 ) / n0 )>0 ) { sb <- sqrt( (MSwork - sw^2 ) / n0 ) }
+  
+  else { sb <- 0 }
+  
+  return(list(sigW=sw,sigB=sb,rho=as.numeric(sb^2/(sb^2+sw^2)),significant=significant))
+  
+}
+
+
+################### using LMER
+
+var.comp.lme <-function(dat){
+  
+  #dat : data.frame avec une colonne x de mesures et une colonne worker d'identifiants de travailleurs
+  
+  #des facteurs pour dat$worker
+  
+  dat$worker <-as.factor(dat$worker)
+  
+  fm1 <- lme( fixed = log(x) ~ 1 , random = ~ 1 | worker , data=dat , method = "REML" )
+  
+  sw <- VarCorr(fm1)[2,2] 
+ 
+  sb <- VarCorr(fm1)[1,2]
+  
+  return(list(sigW=sw,sigB=sb,rho=as.numeric(sb^2/(sb^2+sw^2)),significant=significant))
+
+}
+
+
+
+
