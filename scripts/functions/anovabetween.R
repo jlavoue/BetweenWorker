@@ -73,15 +73,19 @@ var.comp.aov <-function(dat){
   
   MSwork <- anova( fm1 )[1,3] 
   
+  n <- length(dat[,1])
+  
+  k <- length(table(dat$worker))
+  
   n0 <- ( n - ( sum( table(dat$worker)^2 ) )   / n ) / ( k-1 )
   
   sw <- sqrt( MSres )
   
   if ( ( (MSwork - sw^2 ) / n0 )>0 ) { sb <- sqrt( (MSwork - sw^2 ) / n0 ) }
   
-  else { sb <- 0 }
+  if  ( ( (MSwork - sw^2 ) / n0 )<=0 ) { sb <- 0 }
   
-  return(list(sigW=sw,sigB=sb,rho=as.numeric(sb^2/(sb^2+sw^2)),significant=significant))
+  return(list(sigW=sw,sigB=sb,rho=as.numeric(sb^2/(sb^2+sw^2))))
   
 }
 
@@ -98,11 +102,13 @@ var.comp.lme <-function(dat){
   
   fm1 <- lme( fixed = log(x) ~ 1 , random = ~ 1 | worker , data=dat , method = "REML" )
   
-  sw <- VarCorr(fm1)[2,2] 
+  sw <- as.numeric(VarCorr(fm1)[2,2]) 
  
-  sb <- VarCorr(fm1)[1,2]
+  sb <- as.numeric(VarCorr(fm1)[1,2])
   
-  return(list(sigW=sw,sigB=sb,rho=as.numeric(sb^2/(sb^2+sw^2)),significant=significant))
+  rho <- (sb^2/(sb^2+sw^2))
+  
+  return(list(sigW=sw,sigB=sb,rho=rho))
 
 }
 
